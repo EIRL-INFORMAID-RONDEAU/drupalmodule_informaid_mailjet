@@ -1,0 +1,6 @@
+informaid_mailjet.settings_form:
+  title: 'Settings form'
+  route_name: informaid_mailjet.settings_form
+  description: 'Mailjet configuration'
+  parent: system.admin_config_system
+  weight: 99
