@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains informaid_mailjet.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function informaid_mailjet_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the informaid_mailjet module.
+    case 'help.page.informaid_mailjet':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Mailjet for Informaid') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function informaid_mailjet_theme() {
+  return [
+    'informaid_mailjet' => [
+      'render element' => 'children',
+    ],
+  ];
+}

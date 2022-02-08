@@ -1,0 +1,5 @@
+name: 'informaid_mailjet'
+type: module
+description: 'Mailjet for Informaid'
+core_version_requirement: ^9
+package: 'informaid'

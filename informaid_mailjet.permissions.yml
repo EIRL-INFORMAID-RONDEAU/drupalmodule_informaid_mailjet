@@ -1,0 +1,3 @@
+administer mailjet:
+  title: 'Administer Mailjet'
+  description: 'Allow to administer Mailjet configuration'

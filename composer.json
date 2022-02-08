@@ -1,0 +1,16 @@
+{
+    "name": "informaid/informaid_mailjet",
+    "type": "drupal-module",
+    "description": "Mailjet for Informaid",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/informaid_mailjet",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/informaid_mailjet",
+        "source": "http://cgit.drupalcode.org/informaid_mailjet"
+    },
+    "require": {
+        "mailjet/mailjet-apiv3-php": "^1.5"
+    }
+}
