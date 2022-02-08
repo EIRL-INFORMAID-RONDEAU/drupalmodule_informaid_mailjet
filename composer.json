@@ -4,11 +4,11 @@
     "description": "Mailjet for Informaid",
     "keywords": [
     ],
-    "homepage": "https://www.drupal.org/project/informaid_mailjet",
+    "homepage": "https://github.com/EIRL-INFORMAID-RONDEAU/drupalmodule_informaid_mailjet",
     "minimum-stability": "dev",
     "support": {
-        "issues": "https://www.drupal.org/project/issues/informaid_mailjet",
-        "source": "http://cgit.drupalcode.org/informaid_mailjet"
+        "issues": "https://github.com/EIRL-INFORMAID-RONDEAU/drupalmodule_informaid_mailjet/issues",
+        "source": "https://github.com/EIRL-INFORMAID-RONDEAU/drupalmodule_informaid_mailjet.git"
     },
     "require": {
         "mailjet/mailjet-apiv3-php": "^1.5"
